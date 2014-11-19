@@ -1,0 +1,38 @@
+/* from http://css-tricks.com/examples/ShapesOfCSS/ */
+
+.circle {
+	width: 10px;
+	height: 10px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+/* Cleaner, but slightly less support: use "50%" as value */
+
+.envSquare {
+	width: 640px;
+	height: 480px;
+	background: black;
+}
+
+.square {
+    width: 8px;
+    height: 8px;
+    background: white;
+}
+
+.rectangle {
+	width: 6px;
+	height: 32px;
+	background: white;
+}
+
+/*
+Object class
+*/
+
+.pongObject {
+  position: absolute;
+}
